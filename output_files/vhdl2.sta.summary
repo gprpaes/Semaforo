@@ -1,0 +1,149 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'pr_state.eurico_amarelo'
+Slack : -5.935
+TNS   : -42.315
+
+Type  : Slow 1100mV 85C Model Setup 'clk'
+Slack : -5.461
+TNS   : -175.079
+
+Type  : Slow 1100mV 85C Model Setup 'nclk~reg0'
+Slack : -1.431
+TNS   : -16.506
+
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : 0.442
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'nclk~reg0'
+Slack : 0.819
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'pr_state.eurico_amarelo'
+Slack : 3.567
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.538
+TNS   : -39.729
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'nclk~reg0'
+Slack : -0.538
+TNS   : -9.222
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'pr_state.eurico_amarelo'
+Slack : 0.408
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'pr_state.eurico_amarelo'
+Slack : -6.124
+TNS   : -43.154
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -5.546
+TNS   : -177.978
+
+Type  : Slow 1100mV 0C Model Setup 'nclk~reg0'
+Slack : -1.464
+TNS   : -16.796
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : 0.143
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'nclk~reg0'
+Slack : 0.750
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'pr_state.eurico_amarelo'
+Slack : 3.598
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.538
+TNS   : -42.800
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'nclk~reg0'
+Slack : -0.538
+TNS   : -9.240
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'pr_state.eurico_amarelo'
+Slack : 0.353
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'pr_state.eurico_amarelo'
+Slack : -2.477
+TNS   : -17.370
+
+Type  : Fast 1100mV 85C Model Setup 'clk'
+Slack : -2.307
+TNS   : -61.962
+
+Type  : Fast 1100mV 85C Model Setup 'nclk~reg0'
+Slack : -0.448
+TNS   : -4.727
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : 0.203
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'nclk~reg0'
+Slack : 0.329
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'pr_state.eurico_amarelo'
+Slack : 1.896
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.411
+TNS   : -5.166
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'nclk~reg0'
+Slack : 0.143
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'pr_state.eurico_amarelo'
+Slack : 0.470
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'pr_state.eurico_amarelo'
+Slack : -2.376
+TNS   : -16.659
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -2.042
+TNS   : -54.331
+
+Type  : Fast 1100mV 0C Model Setup 'nclk~reg0'
+Slack : -0.360
+TNS   : -3.893
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : 0.087
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'nclk~reg0'
+Slack : 0.283
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'pr_state.eurico_amarelo'
+Slack : 1.859
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.418
+TNS   : -5.113
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'nclk~reg0'
+Slack : 0.143
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'pr_state.eurico_amarelo'
+Slack : 0.475
+TNS   : 0.000
+
+------------------------------------------------------------

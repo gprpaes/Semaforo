@@ -1,0 +1,13 @@
+
+State Machine - |projeto_semaforo|pr_state
+Name pr_state.eurico_vermelho_vermelho_verde pr_state.eurico_vermelho_amarelo_verde pr_state.eurico_amarelo_verde_verde pr_state.eurico_verde pr_state.eurico_vermelho3 pr_state.eurico_vermelho2 pr_state.eurico_vermelho1 pr_state.eurico_vermelho pr_state.eurico_vermelho_vermelho_amarelo pr_state.eurico_amarelo 
+pr_state.eurico_amarelo 0 0 0 0 0 0 0 0 0 0 
+pr_state.eurico_vermelho_vermelho_amarelo 0 0 0 0 0 0 0 0 1 1 
+pr_state.eurico_vermelho 0 0 0 0 0 0 0 1 0 1 
+pr_state.eurico_vermelho1 0 0 0 0 0 0 1 0 0 1 
+pr_state.eurico_vermelho2 0 0 0 0 0 1 0 0 0 1 
+pr_state.eurico_vermelho3 0 0 0 0 1 0 0 0 0 1 
+pr_state.eurico_verde 0 0 0 1 0 0 0 0 0 1 
+pr_state.eurico_amarelo_verde_verde 0 0 1 0 0 0 0 0 0 1 
+pr_state.eurico_vermelho_amarelo_verde 0 1 0 0 0 0 0 0 0 1 
+pr_state.eurico_vermelho_vermelho_verde 1 0 0 0 0 0 0 0 0 1 
