@@ -148,13 +148,13 @@ BEGIN
 				ELSE
 					timer <= timeTEST;
 				END IF;
-				WHEN eurico_vermelho1 => ---- Possui contradições# 
+				WHEN eurico_vermelho1 =>
 				r0<='1'; y0<='0'; g0<='0'; --- vermelho
 				r1<='1'; y1<='0'; g1<='0'; --- vermelho
 				r2<='1'; y2<='0'; g2<='0'; --- vermelho
 				r3<='1'; y3<='0'; g3<='0'; --- vermelho
 				r4<='1'; y4<='0'; g4<='0'; --- vermelho
-				p1g<='0' ; ps1<='1'; --- CONSERTADO
+				p1g<='0' ; ps1<='1'; --- piscando
 				p2g<='1'; p2r<='0'; ps2<='0'; --- verde
 				p3g<='1'; p3r<='0'; ps3<='0';--- verde
 				p4g<='1'; p4r<='0'; ps4<='0'; --- verde
@@ -175,11 +175,11 @@ BEGIN
 				r2<='1'; y2<='0'; g2<='0'; --- vermelho
 				r3<='1'; y3<='0'; g3<='0'; --- vermelho
 				r4<='1'; y4<='0'; g4<='0'; --- vermelho
-				p1g<='0'; p1r<='0'; ps1<='1'; --- piscando
-				p2g<='0'; p2r<='0'; ps2<='1'; --- piscando
-				p3g<='0'; p3r<='0'; ps3<='1'; --- piscando
-				p4g<='0'; p4r<='0'; ps4<='1'; --- piscando
-				p5g<='0'; p5r<='0'; ps5<='1'; --- piscando
+				p1g<='0';  ps1<='1'; --- piscando
+				p2g<='0';  ps2<='1'; --- piscando
+				p3g<='0';  ps3<='1'; --- piscando
+				p4g<='0';  ps4<='1'; --- piscando
+				p5g<='0';  ps5<='1'; --- piscando
 				
 				nx_state <= eurico_verde;
 				IF (test='0') THEN
@@ -202,8 +202,8 @@ BEGIN
 				r4<='1'; y4<='0'; g4<='0'; --- vermelho
 				p1g<='0'; p1r<='1'; ps1<='0'; --- vermelho
 				p2g<='0'; p2r<='1'; ps2<='0'; --- vermelho
-				p3g<='0'; p3r<='0'; ps3<='1'; --- piscando
-				p4g<='0'; p4r<='0'; ps4<='1';--- piscando
+				p3g<='0'; ps3<='1'; --- piscando
+				p4g<='0'; ps4<='1';--- piscando
 				p5g<='0'; p5r<='1'; ps5<='0';--- vermelho
 				nx_state <= eurico_verde;
 				IF (test='0') THEN
