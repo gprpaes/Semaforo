@@ -51,6 +51,7 @@ BEGIN
  ---DIVISOR DE CLOCK
 	PROCESS(clk)
 		BEGIN
+			---REDUZ A FREQUENCIA EM MHZ PARA GERAR O CONTADOR EM SEGUNDOS PARA O TIME DO SEMAFORO
 			IF(clk 'event and clk='1') THEN
 				IF(cont < 416666) THEN
 					cont <= cont + 1;
@@ -79,6 +80,7 @@ BEGIN
 	PROCESS (clk) --@
 		VARIABLE count : INTEGER RANGE 0 TO timeMAX;
 	BEGIN
+		---contador para aplicar os estados e alterar o timer dependendo dos estados selecionados
 		IF (stby='1') THEN
 			pr_state <= eurico_amarelo;
 			count := 0;
@@ -152,12 +154,10 @@ BEGIN
 				r2<='1'; y2<='0'; g2<='0'; --- vermelho
 				r3<='1'; y3<='0'; g3<='0'; --- vermelho
 				r4<='1'; y4<='0'; g4<='0'; --- vermelho
-				--p1g<='0' ;p1r<='0'; ps1<='1'; --- piscando
 				p1g<='0' ; ps1<='1'; --- CONSERTADO
 				p2g<='1'; p2r<='0'; ps2<='0'; --- verde
 				p3g<='1'; p3r<='0'; ps3<='0';--- verde
 				p4g<='1'; p4r<='0'; ps4<='0'; --- verde
-				--p5g<='0'; p5r<='0'; ps5<='1'; --- piscando
 				p5g<='0'; ps5<='1'; --- piscando
 				nx_state <= eurico_verde;
 				IF (test='0') THEN
